@@ -1,0 +1,5 @@
+protocol: '4'
+merchant_id_number: '987634'
+merchant_key: 'ojhgf45678'
+sage_payment_server: 'lkjhgvf.net'
+votesane_card_types: 'visa'

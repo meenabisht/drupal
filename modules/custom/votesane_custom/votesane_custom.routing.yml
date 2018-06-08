@@ -1,0 +1,31 @@
+votesane_custom.votesane_content:
+  path: '/admin/config/votesane'
+  defaults: 
+    _title: 'Votesane'
+    _controller: 'Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+  requirements:
+    _permission: 'access administration pages'
+
+votesane_custom.basic_settings:
+  path: '/admin/config/votesane/basic-settings'
+  defaults:
+    _title: 'Basic Settings'
+    _form: 'Drupal\votesane_custom\Form\VotesaneBasicSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+votesane_custom.donation_settings:
+  path: '/admin/config/votesane/donate'
+  defaults:
+    _title: 'Donation Settings'
+    _form: 'Drupal\votesane_custom\Form\VotesaneDonationSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+votesane_custom.sagepay_settings:
+  path: '/admin/config/votesane/sagepay'
+  defaults:
+    _title: 'Sagepay Settings'
+    _form: 'Drupal\votesane_custom\Form\VotesaneSagepaySettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

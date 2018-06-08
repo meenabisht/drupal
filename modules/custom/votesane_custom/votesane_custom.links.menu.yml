@@ -1,0 +1,19 @@
+votesane_custom.votesane_content:
+  title: 'Votesane'
+  parent: system.admin_config
+  route_name: votesane_custom.votesane_content
+
+votesane_custom.basic_settings:
+  title: 'Basic Settings'
+  parent: votesane_custom.votesane_content
+  route_name: votesane_custom.basic_settings
+
+votesane_custom.donation_settings:
+  title: 'Donation Settings'
+  parent: votesane_custom.votesane_content
+  route_name: votesane_custom.donation_settings
+
+votesane_custom.sagepay_settings:
+  title: 'Sagepay Settings'
+  parent: votesane_custom.votesane_content
+  route_name: votesane_custom.sagepay_settings

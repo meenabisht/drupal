@@ -1,0 +1,4 @@
+name: 'Votsane Custom'
+description: 'This is a custom module for votsane'
+type: module
+core: 8.x
